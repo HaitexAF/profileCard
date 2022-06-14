@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Twinkle Star', cursive;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100vw;
+    margin: 100px auto;
+    color: white;
+    padding-top: 50px;
+
+}
+.box{
+    background-color:hsl(120, 50%, 30%, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.479) 1px 5px 7px 10px;
+    width: 400px;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px rgba(3, 46, 3, 0.61) solid;
+}
+header{
+    background-image: url('./header.jpg');
+    opacity: 80%;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+}
+img{
+    border: 3px rgba(0, 255, 85, 0.644) solid;
+    border-radius: 50%;
+    position: relative;
+    left: 152px;
+    top: 102px;
+}
+.name{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+}
+span{
+    font-weight: bold;
+    opacity: 70%;
+    margin-left: 15px;
+}
+h4{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    opacity: 70%;
+}
+th{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 80%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
